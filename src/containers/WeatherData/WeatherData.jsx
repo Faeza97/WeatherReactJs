@@ -137,10 +137,11 @@ export default function WeatherData() {
   };
   return (
     <Container fluid className="img" style={sectionStyle}>
-      <Form className="pb-2">
+      <Form className="pb-2 my-2 ml-5">
         <Row noGutters className="justify-content-md-left">
           <Col sm="2">
             <Form.Control
+              className="inputSearch"
               ref={location}
               size="sm"
               type="search"
@@ -149,12 +150,13 @@ export default function WeatherData() {
           </Col>
           <Col md="auto">
             <Button
-              variant="success"
+              className="searchBtn"
+              variant="info"
               size="sm"
               type="submit"
               onClick={getLocation}
             >
-              search
+              Search
             </Button>
           </Col>
         </Row>
