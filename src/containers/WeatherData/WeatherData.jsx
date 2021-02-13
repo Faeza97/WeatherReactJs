@@ -159,7 +159,7 @@ export default function WeatherData() {
           </Col>
         </Row>
       </Form>
-      <Container className="transbox mt-2">
+      <Container className="transbox mt-2 mx-auto">
         <StatusBar currentWeth={currentWeth} />
         <CityInfo currentWeth={currentWeth} />
         <WeeklyForecast forecastWeather={forecastData} />
