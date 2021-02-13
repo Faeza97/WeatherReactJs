@@ -136,7 +136,7 @@ export default function WeatherData() {
     backgroundImage: `url(${backgroundImage()})`,
   };
   return (
-    <Container fluid className="ml-2 img" style={sectionStyle}>
+    <Container fluid className="img" style={sectionStyle}>
       <Form className="pb-2">
         <Row noGutters className="justify-content-md-left">
           <Col sm="2">
