@@ -86,8 +86,8 @@ export default function WeatherData() {
     );
   }
   const forecastData = forcasttWeth.consolidated_weather.map((weather, i) => (
-    <Container className="mt-3" key={i}>
-      <Row className="mt-2 mb-2">
+    <Container className="mt-5" key={i}>
+      <Row className="mt-3 mb-2">
         <Col>{weekday[new Date(weather.applicable_date).getDay()]}</Col>
       </Row>
       <Row>
@@ -106,10 +106,10 @@ export default function WeatherData() {
           </object>
         </Col>
       </Row>
-      <Row className="mt-3">
+      <Row className="mt-3 mb-2">
         <Col>{parseInt(weather.min_temp)}°C</Col>
       </Row>
-      <Row className="mt-3">
+      <Row className="mt-3 mb-4">
         <Col>{parseInt(weather.max_temp)}°C</Col>
       </Row>
       <Row className="mt-3 mb-5">
