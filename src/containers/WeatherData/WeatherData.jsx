@@ -112,7 +112,7 @@ export default function WeatherData() {
       <Row className="mt-3 mb-4">
         <Col>{parseInt(weather.max_temp)}°C</Col>
       </Row>
-      <Row className="mt-3 mb-5">
+      <Row className="mt-3 mb-4">
         <Col>{parseInt(weather.wind_speed)} Kph</Col>
       </Row>
     </Container>
@@ -136,7 +136,7 @@ export default function WeatherData() {
     backgroundImage: `url(${backgroundImage()})`,
   };
   return (
-    <Container fluid className="img" style={sectionStyle}>
+    <Container fluid className="ml-2 img" style={sectionStyle}>
       <Form className="pb-2">
         <Row noGutters className="justify-content-md-left">
           <Col sm="2">
