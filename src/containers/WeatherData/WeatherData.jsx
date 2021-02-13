@@ -109,7 +109,7 @@ export default function WeatherData() {
       <Row className="mt-3 mb-2">
         <Col>{parseInt(weather.min_temp)}°C</Col>
       </Row>
-      <Row className="mt-3 mb-4">
+      <Row className="mt-3">
         <Col>{parseInt(weather.max_temp)}°C</Col>
       </Row>
       <Row className="mt-3 mb-4">
