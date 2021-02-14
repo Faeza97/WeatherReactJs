@@ -1,19 +1,31 @@
 # Weather Forecast App
+ ☀️🌤⛅️🌥🌦
+
+The best weather app you will ever see ! now you can know every single detail about the weather before your picnic we will even tell you about
+the wind speed 🌬 in your location.
 
 
 
-This React component provides a basic display of weather information, similar to something that you might see on a weather forecast.
+## Live Demo
+View the [live demo](https://weatherapp-cpp-team.netlify.app/)!
 
+
+## Site Map
+
+- the first thing you will see when you open the site is the search bar on the top left. here you can choose the city you want to see it's weather.<br>
+- after the search there is the status bar which gives you a brief of important weather information. <br><br>
+- then we have the city, weather forecast and time. <br><br>
+
+- the last thing is the weekly forecast of the weather <br><br>
+
+## How to use
+
+1-open the application link <br>
+2-you will see a default city. search for your city.<br>
+3-you will see today's weather for your city navigate down to see weekly forecast.<br>
 
 ### Built With
 - [React ](https://reactjs.org/)- A JavaScript library for building user interfaces
-
-### Live Demo
-View the [live demo](https://)!
-
-
-#### Resulting image looks something like this:
-![Preview](http://i.imgur.com/nameimage.png)
 
 
 ### Dependencies
@@ -22,6 +34,11 @@ View the [live demo](https://)!
 - React-Bootstrap: [https://react-bootstrap.github.io/](https://react-bootstrap.github.io/)
 - Axios: [https://www.npmjs.com/package/react-axios/](https://www.npmjs.com/package/react-axios/)
 - ReactJS: [https://reactjs.org](https://reactjs.org)
+
+
+### Contributors
+
+This app is developed by c++ Team
 
 ### Initial Set Up
 
